@@ -36,7 +36,7 @@ tokio = { version = "*", optional = true }
 tower = { version = "*", optional = true }
 tower-http = { version = "*", features = ["fs"], optional = true }
 tracing = { version = "*", optional = true }
-wasm-bindgen = "=0.2.91"
+wasm-bindgen = "=0.2.92"
 
 [features]
 hydrate = ["leptos/hydrate", "leptos_meta/hydrate", "leptos_router/hydrate"]
